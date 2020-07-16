@@ -13,4 +13,15 @@ SumaParalela():
 
 Conjunto de variables por parametro
 
+TamanioArreglo
+NumThreads
+LimiteInf
+LimiteSup
+
+Arreglos:
+
+Arreglo[]
+
+ArregloParalelo[] 
+
   
