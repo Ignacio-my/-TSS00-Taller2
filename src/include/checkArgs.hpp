@@ -27,11 +27,6 @@ private:
 		uint32_t LimiteSup;
 	} args_t;
 	
-	// 2) Modificar constructor
-	// 3) Modificar ciclo "getopt" en método checkArgs::getArgs()
-	// 4) Recuerde que para compilar nuevamente, y por tratarse
-	//    de un archivo header, debe hacer primero un make clean
-	
 	args_t  parametros;
 	
 	int argc;
@@ -45,8 +40,6 @@ public:
 	
 private:
 	void printUsage();
-	
-	
 };
 
 checkArgs::checkArgs(int _argc , char **_argv){
