@@ -17,9 +17,8 @@
 #include <cmath>
 
 #include <thread>
-
 #include <mutex>
-
+#include <omp.h>
 
 
 #endif

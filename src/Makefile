@@ -5,11 +5,11 @@ RM=rm -f
 TARGET=../sumArray
 
 
-INCLUDES=-I../include -I. -I./include
+INCLUDES=-I./include
 LDFLAGS=
-LDLIBS=-lpthread
+LDLIBS=-lpthread -fopenmp 
 
-CXXFLAGS=-std=c++14 -Wall 
+CXXFLAGS=-std=c++17 -Wall -fopenmp
 
 DIR_OBJ=objs
 
